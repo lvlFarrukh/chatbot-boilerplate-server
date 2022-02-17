@@ -10,7 +10,7 @@ const sendMessage = async (client, message, senderID, twilioNumber) => {
             .then(message => {
                 console.log("Message: ", message)
                 console.log(message.sid)
-            };
+            });
             
     }   
     catch (error){
