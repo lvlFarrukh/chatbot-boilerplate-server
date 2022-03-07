@@ -6,7 +6,6 @@ const textQueryRequestResponse = async (projectId, queryText, languageCode) => {
     // const sessionId = "session123"
     // const query = req.body.text;
     // const languageCode = "en-US"
-    console.log()
     // The path to identify the agent that owns the created intent.
     const sessionPath = sessionClient.projectAgentSessionPath(
         projectId,
